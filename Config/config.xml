@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+    <cpu>1000000</cpu><!--单位是us，最小不得小于1000ms，cpu周期总时长-->
+    <busybox>/root/busybox</busybox> <!--busybox文件路径，该文件用以给容器程序提供基础的linux服务环境-->
+</Config>
